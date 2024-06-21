@@ -109,7 +109,7 @@ defineExpose({
 <template>
   <el-drawer
     v-model="visibleDrawer"
-    :title="formModel.id ? '编辑文章--周好' : '添加文章'"
+    :title="formModel.id ? '编辑文章' : '添加文章'"
     direction="rtl"
     size="50%"
   >
